@@ -60,8 +60,16 @@ class: 'text-white'
 This is a page with the layout `center` and a background image.
 
 ---
+inject: HI
+---
 
 # Page 3
+
+This is page with injected content from a frontmatter variable - {{$frontmatter.inject}}
+
+---
+
+# Page 4
 
 This is a default page without any additional metadata.
 ```
